@@ -63,6 +63,7 @@ router.post('/todo',
     const todo = await db.todoList.create({
         data:{
             name: req.body.title,
+            userId: req.user.id
         }
     })
     res.status(200).json({todo})
