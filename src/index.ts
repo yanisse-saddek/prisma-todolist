@@ -6,6 +6,8 @@ import todoItems from "./routes/todoItems";
 import { protect } from "./modules/auth";
 import { createNewUser, signIn } from "./handlers/user";
 
+import config from "./config";
+
 dotenv.config() 
 
 const app = express();
@@ -17,7 +19,7 @@ app.post('/signup', createNewUser)
 app.post('/sign-in', signIn)
 
 
-app.listen(3000, () => {
-    console.log('Server started on port 3000');
+app.listen(config.port, () => {
+    console.log('Server started on port', config.port);
 });  
 
