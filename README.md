@@ -31,9 +31,8 @@ Install the dependencies using the following command
 
 ## Routes
 
+### Signup and Sign-in route
 Here is the list of routes usable in this application   
-
-### Comment route
 
 POST request : signup to create an account to use the blog 
 ```bash
@@ -43,6 +42,9 @@ POST request : log to your account to use the app
 ```bash
 /sign-in
 ```
+
+### Comment route
+
 POST request : create a description to yur command 
 ```bash
 /api/comment
