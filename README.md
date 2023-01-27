@@ -33,6 +33,8 @@ Install the dependencies using the following command
 
 Here is the list of routes usable in this application   
 
+### Comment route
+
 POST request : signup to create an account to use the blog 
 ```bash
 /signup
@@ -54,6 +56,9 @@ DELETE request : delete a comment
 ```bash
 /api/comment/:uuid
 ```
+
+### Post route
+
 GET request : get all the posts of a user
 ```bash
 /api/posts
@@ -82,6 +87,9 @@ GET request : get all the post of a single user
 ```bash
 /api/user
 ```
+
+### Admin route
+
 DELETE request : delete a post by an admin 
 ```bash
 /api/admin/post/:postid
