@@ -1,6 +1,14 @@
 
 # Blog NodeJS
 
+This application is a blog with CRUD methods to manage users comments and posts.
+
+Deployed on this URL:
+```bash
+https://ipssi.onrender.com/
+```
+
+the Routes are to be added to this URL
 
 ## Installation
 
