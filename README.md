@@ -18,12 +18,13 @@ To check it use
 ```
 clone this project using the command
 ```bash
-git clone "https://github.com/yanisse-saddek/prisma-todolist.git" 
+git clone "https://github.com/yanisse-saddek/prisma-todolist.git"
 ```
 
-Install the dependencies using the following command
+Enter the folder back then install the dependencies using the following command.
 
 ```bash
+  cd back
   npm install 
   pnpm install
 ```
@@ -43,6 +44,14 @@ POST request : log to your account to use the app
 ```bash
 /sign-in
 ```
+
+```bash
+ body:{
+        username:string,
+        password:string
+    }
+```
+(For both sign requets)
 
 ### Comment route
 
